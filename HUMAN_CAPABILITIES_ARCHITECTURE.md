@@ -67,7 +67,7 @@ Mastery is not inferred from a workout alone. A mastery_credentialed record requ
 |---|---|
 | Supplied candidate inventories recorded | Documented |
 | Portable capability evidence schema and synthetic fixture | Implemented in this branch |
-| Dependency-free semantic validator and negative cases | Implemented in this branch |
+| Dependency-free semantic validator and negative cases | Implemented in this branch; CI passed — see HUMAN_CAPABILITIES_VALIDATION.md |
 | Human-capability product integrations | Not implemented |
 | Live identity, consent, credential signing/verification, revocation service | Not implemented |
 | Full JSON Schema 2020-12 validation | Pending |
