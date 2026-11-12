@@ -86,3 +86,9 @@ The open implementation is local-first and independently operable. Measurement, 
 See HUMAN_CAPABILITIES_ARCHITECTURE.md, schemas/human-capabilities/capability-record.v1.schema.json, and .github/scripts/human_capability_contract.py. The evidence structure is portable; C2O Controlled authority, identity, policy, and approval state remain private. Named external tools remain candidates pending verification.
 
 Human Capabilities contract validation passed; exact run evidence and limitations are recorded in HUMAN_CAPABILITIES_VALIDATION.md.
+
+## Four-document source coverage — 2026-11-12
+
+The complete owner-supplied tool inventory and status matrix for Human Knowledge, Powers, Human Capabilities, and Mapping/Matrix/Organization/Ecosystem Mapping is maintained in the UNIVERSALIS research register: https://github.com/C2O-Chaos-to-Order/Research-for-the-UNIVERSALIS-Ecosystem/blob/implementation/repository-foundation-2026-11-12/FOUR_DOCUMENT_TOOLCHAIN_COVERAGE.md.
+
+Treat every third-party name in that register as a proposed candidate/reference pattern until canonical source, license, maintenance, security, compatibility, and behavior are reviewed. The register distinguishes documented tools, basic contracts, passing CI, and actual integrations. This repository owns only the parts assigned to its domain. No C2O-private repository links or policy values are part of this public register.
