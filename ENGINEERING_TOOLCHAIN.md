@@ -84,3 +84,5 @@ The open implementation is local-first and independently operable. Measurement, 
 ## Human Capabilities implementation
 
 See HUMAN_CAPABILITIES_ARCHITECTURE.md, schemas/human-capabilities/capability-record.v1.schema.json, and .github/scripts/human_capability_contract.py. The evidence structure is portable; C2O Controlled authority, identity, policy, and approval state remain private. Named external tools remain candidates pending verification.
+
+Human Capabilities contract validation passed; exact run evidence and limitations are recorded in HUMAN_CAPABILITIES_VALIDATION.md.
