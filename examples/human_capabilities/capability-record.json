@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "record_id": "capability-fixture-001",
+  "subject": {
+    "subject_id": "synthetic-agent-01",
+    "subject_type": "agent",
+    "display_name": "Synthetic test agent"
+  },
+  "capability": {
+    "capability_id": "accessibility.audit.wcag22",
+    "domain": "Digital & Technological",
+    "taxonomy_ref": "HCQM:Digital-Technological",
+    "description": "Perform a defined accessibility audit and produce reproducible findings."
+  },
+  "proficiency": {
+    "label": "proficient-fixture",
+    "rubric_ref": "rubric:synthetic-v1",
+    "indicators": [
+      "executes versioned assessment",
+      "produces traceable evidence"
+    ]
+  },
+  "status": "mastery_credentialed",
+  "assessment": {
+    "method": "workout",
+    "assessed_at": "2026-11-12T10:00:00Z",
+    "assessed_by": "assessor-fixture-01",
+    "assessment_ref": "assessment:fixture-001",
+    "expires_at": "2027-11-12T10:00:00Z"
+  },
+  "evidence": [
+    {
+      "evidence_id": "evidence-fixture-001",
+      "evidence_kind": "workout_receipt",
+      "artifact_ref": "artifact:synthetic-only",
+      "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "occurred_at": "2026-11-12T09:00:00Z",
+      "result": "pass",
+      "test_suite_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ],
+  "provenance": {
+    "submitted_by": "submitter-fixture-01",
+    "source_refs": [
+      "source:synthetic-only"
+    ],
+    "recorded_at": "2026-11-12T10:01:00Z",
+    "record_commit": "fixture-commit"
+  },
+  "consent": {
+    "status": "not_required",
+    "purpose": "synthetic validator fixture",
+    "scope": [
+      "fixture-only"
+    ],
+    "recorded_at": "2026-11-12T10:01:00Z",
+    "record_ref": "consent:fixture-rationale"
+  },
+  "independent_review": {
+    "status": "passed",
+    "reviewer_id": "independent-proctor-fixture",
+    "reviewed_at": "2026-11-12T10:02:00Z",
+    "review_ref": "review:fixture-001",
+    "proctor_authorized": true
+  },
+  "attestation": {
+    "status": "signed",
+    "issuer_id": "fixture-issuer",
+    "algorithm": "Ed25519",
+    "signature": "synthetic-placeholder-not-a-valid-signature",
+    "issued_at": "2026-11-12T10:03:00Z",
+    "revocation_ref": null
+  },
+  "governance": {
+    "authority_class": "Evidence",
+    "policy_ref": null,
+    "approval_ref": null,
+    "privacy_class": "public"
+  }
+}
