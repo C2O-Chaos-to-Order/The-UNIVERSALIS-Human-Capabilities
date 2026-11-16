@@ -1,8 +1,8 @@
 # Human Capabilities Contract Validation Record
 
-**Date:** 2026-11-12  
-**Profile:** UNIVERSALIS  
-**Branch:** implementation/repository-foundation-2026-11-12  
+**Date:** 2026-11-12
+**Profile:** UNIVERSALIS
+**Branch:** implementation/repository-foundation-2026-11-12
 **Draft PR:** #6
 
 ## Executed checks
